@@ -35,12 +35,12 @@ func main() {
 
 	something := &ConcreteMethod{}
 
-	//Add cheese topping
+	
 	addSomething := &Decorator2{
 		additional2: something,
 	}
 
-	//Add tomato topping
+	
 	addSomething2 := &Decorator{
 		additional: addSomething,
 	}
